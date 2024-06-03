@@ -5,9 +5,12 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 const cors = require("cors");
 app.use(cors());
+require("dotenv").config();
 
 const port = 3000;
-let MongoURL = "mongodb://127.0.0.1:27017/eLearning";
+// let MongoURL = "mongodb://127.0.0.1:27017/eLearning";
+
+let MongoURL = process.env.DB_URL;
 
 main()
   .then(console.log("connected to db"))

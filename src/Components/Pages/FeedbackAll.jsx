@@ -118,7 +118,7 @@ export default function FeedbackAll() {
             data-wow-delay="0.3s"
           >
             <a
-              href={`hhttps://elearning-backend-lfxb.onrender.com/feedback/${feedback._id}`}
+              href={`https://elearning-backend-lfxb.onrender.com/feedback/${feedback._id}`}
             >
               <span
                 class="material-symbols-outlined position-absolute top-0 end-0"

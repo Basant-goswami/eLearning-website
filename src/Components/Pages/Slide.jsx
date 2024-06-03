@@ -13,11 +13,7 @@ export default function Slide() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <div className="owl-carousel-item position-relative">
-              <img
-                className="img-fluid"
-                src="src/assets/img/carousel-2.jpg"
-                alt=""
-              />
+              <img className="img-fluid" src="/img/carousel-2.jpg" alt="" />
               <div
                 className="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
                 style={{ background: "rgba(24, 29, 56, .7)" }}
@@ -58,11 +54,7 @@ export default function Slide() {
 
           <div className="carousel-item">
             <div className="owl-carousel-item position-relative">
-              <img
-                className="img-fluid"
-                src="src/assets/img/carousel-1.jpg"
-                alt=""
-              />
+              <img className="img-fluid" src="/img/carousel-1.jpg" alt="" />
               <div
                 className="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
                 style={{ background: "rgba(24, 29, 56, .7)" }}

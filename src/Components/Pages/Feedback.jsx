@@ -6,7 +6,7 @@ export default function Feedback() {
   return (
     <>
       <Navbar />
-      <h1>hello Feedback</h1>
+      <h1>Hello Feedback</h1>
       <div className="feedback vh-100">
         <form action="/feedback">
           <input

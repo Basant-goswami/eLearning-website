@@ -67,11 +67,7 @@ export default function Cources() {
                     className="position-relative d-block overflow-hidden"
                     to="/courses/mern"
                   >
-                    <img
-                      className="img-fluid"
-                      src="src/assets/img/cat-1.jpg"
-                      alt=""
-                    />
+                    <img className="img-fluid" src="/img/cat-1.jpg" alt="" />
                     <div
                       className="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                       style={{ margin: "1px" }}
@@ -89,11 +85,7 @@ export default function Cources() {
                     className="position-relative d-block overflow-hidden"
                     to="/courses/fullstack"
                   >
-                    <img
-                      className="img-fluid"
-                      src="src/assets/img/cat-2.jpg"
-                      alt=""
-                    />
+                    <img className="img-fluid" src="/img/cat-2.jpg" alt="" />
                     <div
                       className="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                       style={{ margin: "1px" }}
@@ -111,11 +103,7 @@ export default function Cources() {
                     className="position-relative d-block overflow-hidden"
                     to="/cources/programming"
                   >
-                    <img
-                      className="img-fluid"
-                      src="src/assets/img/cat-3.jpg"
-                      alt=""
-                    />
+                    <img className="img-fluid" src="/img/cat-3.jpg" alt="" />
                     <div
                       className="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                       style={{ margin: "1px" }}
@@ -138,7 +126,7 @@ export default function Cources() {
               >
                 <img
                   className="img-fluid position-absolute w-100 h-100"
-                  src="src/assets/img/cat-4.jpg"
+                  src="/img/cat-4.jpg"
                   alt=""
                   style={{ objectFit: "cover" }}
                 />

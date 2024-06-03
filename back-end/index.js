@@ -60,7 +60,7 @@ app.get("/feedback", async (req, res) => {
 app.get("/feedback/:id", async (req, res) => {
   let { id } = req.params;
   let data = await Feedback.findOneAndDelete({ _id: id });
-  console.log(data);
+  // console.log(data);
   res.redirect("http://localhost:5173/feedback");
 });
 

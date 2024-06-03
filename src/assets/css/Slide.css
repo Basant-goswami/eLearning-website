@@ -1,0 +1,10 @@
+.carousel-inner{
+    width: 100%;
+}
+.slide img{
+    width: 100%;
+    min-height: 60vh;
+}
+.carousel-control-prev{
+    left: -4%;
+}

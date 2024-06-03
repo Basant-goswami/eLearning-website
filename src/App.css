@@ -1,0 +1,19 @@
+.slide .carousel-indicators button {
+    background-color: black;
+}
+
+.slide .carousel-indicators {
+    position: relative;
+}
+
+.carousel-control-prev button {
+    color: black;
+}
+
+.showBook .allbooks .bookCart img {
+    height: 260px;
+}
+
+.service-item p{
+    color: black;
+}

@@ -1,0 +1,9 @@
+.list-group .list-group-item{
+    color: blueviolet;
+}
+.list-group-item:hover{
+    background-color: #06BBCC;
+}
+.test{
+    height: 60vh;
+}

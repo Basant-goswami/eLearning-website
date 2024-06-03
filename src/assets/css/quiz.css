@@ -1,0 +1,116 @@
+.Quiz .container {
+    min-height: 60vh;
+    width: 50%;
+    border-radius: 8px;
+}
+
+.Quiz .question {
+    min-height: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: red;
+}
+
+.Quiz .option {
+    min-height: 300px;
+    margin: 8px;
+}
+
+.Quiz .nextbtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Quiz .nextbtn button {
+    background-color: rgb(203, 77, 136);
+    border-radius: 8px;
+}
+
+.Quiz .nextbtn button:hover{
+    background-color: rgb(243, 132, 180);
+}
+
+.Quiz .option button {
+    border-radius: 8px;
+    background-color: rgb(243, 132, 180);
+    color: white;
+}
+
+.Quiz .option button:hover {
+    background-color: rgb(203, 77, 136);
+    color: white;
+}
+
+.checked {
+    background-color: rgb(203, 77, 136) !important;
+    color: white;
+}
+
+/* **************RESPONSIVE***************** */
+
+@media (max-width : 750px) {
+
+    .Quiz{
+        margin: 0rem !important;
+    }
+    
+    .Quiz .nextbtn button {
+        margin-bottom: 4px;
+    }
+
+    .Quiz .heading {
+        margin: 2rem !important;
+    }
+
+    .Quiz .container {
+        width: 100%;
+        min-height: 65vh;
+    }
+
+    .Quiz .container .question {
+        padding: 7px;
+    }
+    .Quiz .option {
+        min-height: 200px;
+    }
+    .main-alert{
+        position: absolute;
+        top: 30%;
+        left: 0px !important;
+    }
+}
+
+/* *******************SHOW RESULT PAGE ****************** */
+
+.showresult{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+.tryAgain{
+    background-color: rgb(203, 77, 136);
+    border-radius: 8px;
+    color: white;
+}
+.tryAgain:hover{
+    background-color: rgb(240, 112, 167);
+    color: white;
+}
+
+.main-alert{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+.main-alert .btn-close{
+    position: absolute;
+    z-index: 1;
+    right: 20px;
+    top: 10px;
+}

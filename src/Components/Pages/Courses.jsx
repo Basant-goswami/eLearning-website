@@ -5,7 +5,7 @@ import Coursestructure from "../Course/Coursestructure";
 export default function Cources() {
   const obj1 = {
     time: "0.1s",
-    img: "src/assets/img/course-1.jpg",
+    img: "/img/course-1.jpg",
     readlink:
       "https://en.wikipedia.org/wiki/Outline_of_web_design_and_web_development",
     join: "/courses/fullstack",
@@ -19,7 +19,7 @@ export default function Cources() {
 
   const obj2 = {
     time: "0.3s",
-    img: "src/assets/img/java.jpg",
+    img: "/img/java.jpg",
     readlink: "https://en.wikipedia.org/wiki/Java_(programming_language)",
     join: "/courses/java",
     price: "$189.00",
@@ -32,7 +32,7 @@ export default function Cources() {
 
   const obj3 = {
     time: "0.5s",
-    img: "src/assets/img/course-3.jpg",
+    img: "/img/course-3.jpg",
     readlink: "https://en.wikipedia.org/wiki/Data_structure",
     join: "/courses/dsa",
     price: "$219.00",

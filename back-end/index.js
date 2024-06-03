@@ -48,7 +48,7 @@ app.post("/feedback/new", async (req, res) => {
   let { name, image, rating, comment, date } = req.body;
   let newFeedback = new Feedback({ name, image, rating, comment, date });
   await newFeedback.save();
-  res.redirect("https://e-learning-website-sable.vercel.app/feedback");
+  res.redirect("https://e-learning-six-iota.vercel.app/feedback");
 });
 
 app.get("/feedback", async (req, res) => {
@@ -61,7 +61,7 @@ app.get("/feedback/:id", async (req, res) => {
   let { id } = req.params;
   let data = await Feedback.findOneAndDelete({ _id: id });
   // console.log(data);
-  res.redirect("https://e-learning-website-sable.vercel.app/feedback");
+  res.redirect("https://e-learning-six-iota.vercel.app/feedback");
 });
 
 app.listen(port, () => {
